@@ -1,42 +1,6 @@
 @import 'global';
 
 
-// general (rules consistent across all pages)
-
-header {
-
-	h1 {
-		color:$white;
-		font-size:3.75rem;
-		font-weight:600;
-	}
-
-	p.sub-header {
-		color:$white;
-		font-weight:600;
-		line-height:1.1875rem;
-		margin-bottom:1rem;
-	}
-
-}
-
-section {
-
-	h1 {
-		color:$black;
-		font-size:3rem;
-		line-height:4.125rem;
-	}
-
-	p.sub-text {
-		color:$darkgrey;
-		font-size:1.3125rem;
-		line-height:1.8125rem;
-	}
-
-}
-
-
 //specific (rules only for this page)
 
 header.home {
@@ -68,8 +32,8 @@ section.search {
 	}
 
 	p.sub-text {
-		text-align:center;
 		margin-top:1rem;
+		text-align:center;
 	}
 
 	input.main-searchbar {
@@ -119,14 +83,6 @@ section.default-contents {
 			float:left;
 			padding-right:1em;
 			width:40%;
-
-			h2 {
-				color:$black;
-				font-size:2.5rem;
-				font-weight:600;
-				line-height:3.125rem;
-			}
-
 		}
 
 		div.right {
@@ -144,13 +100,6 @@ section.default-contents {
 					font-weight:300;
 					line-height:2.5625rem;
 					margin:0.2em 0 0.3em 0;
-				}
-
-				p.external-link {
-					color:$purple;
-					font-size:1.125rem;
-					font-weight:500;
-					line-height:2.3125rem;
 				}
 
 				p.description {
